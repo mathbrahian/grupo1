@@ -18,24 +18,24 @@ def mision_vision_func():
     return render_template("public/mision_vision.html")
 
 # menu cliente # mockup 18
-@app.route('/public/menu_cliente')
+@app.route('/client/menu_cliente')
 def menu_cliente_func():
-    return render_template("public/menu_cliente.html")
+    return render_template("client/menu_cliente.html")
 
 # perfil cliente # mockup 19
-@app.route('/public/perfil_cliente')
+@app.route('/client/perfil_cliente')
 def perfil_cliente_func():
-    return render_template("public/perfil_cliente.html")
+    return render_template("client/perfil_cliente.html")
 
 # gestionar reserva # mockup 20
-@app.route('/public/gestionar_reserva')
+@app.route('/client/gestionar_reserva')
 def gestionar_reserva_func():
-    return render_template("public/gestionar_reserva.html")
+    return render_template("client/gestionar_reserva.html")
 
 # crear reserva # mockup 21
-@app.route('/public/crear_reserva')
+@app.route('/client/crear_reserva')
 def crear_reserva_func():
-    return render_template("public/crear_reserva.html")
+    return render_template("client/crear_reserva.html")
 
 # Joanella
 @app.route('/public/contacto')
