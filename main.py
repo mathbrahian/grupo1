@@ -4,23 +4,23 @@ app = Flask(__name__)
 
 # Randyr
 @app.route('/')
-def inicio_func():
-    return render_template("inicio.html")
+def index_func():
+    return render_template("index.html")
 
 #Randyr
-@app.route('/servicio')
+@app.route('/public/servicio')
 def servicio_func():
-    return render_template("servicio.html")
+    return render_template("public/servicio.html")
 
 # Gustavo
-@app.route('/mision_vision')
+@app.route('/public/mision_vision')
 def mision_vision_func():
-    return render_template("mision_vision.html")
+    return render_template("public/mision_vision.html")
 
 # Joanella
-@app.route('/contacto')
+@app.route('/public/contacto')
 def contacto_func():
-    return render_template("contacto.html")
+    return render_template("public/contacto.html")
 
 
 if __name__ == '__main__':
