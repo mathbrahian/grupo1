@@ -1,5 +1,33 @@
 {% extends "index.html" %}
 
 {% block content %}
-<p>servicio</p>
+
+<h1  class="bg-secondary text-white text-center"> Menu Administrador</h1>
+<div class="btn-group">
+    <button type="button" class="btn btn-success">Regresar</button>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNavMenAdminMarkup"  style="padding-left: 20em;padding-right: 20em; padding-bottom: 5em;">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">    
+            <img src="/static/NewUserImg.png" class=".img-responsive" style="width: 45%; height: 90%;"> 
+            <span>
+            <button class="btn btn-secondary" type="button">Crear Usuario</button>    
+            </span>
+        </a>
+        <span></span>
+        <a class="nav-item nav-link" href="#">
+            <img src="/static/SeeUserImg.png" class=".img-responsive" style="width: 30%; height: 95%;"> 
+            <span>
+            <button class="btn btn-secondary" type="button">Listar Usuarios</button>    
+            </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+
+
 {% endblock %}
