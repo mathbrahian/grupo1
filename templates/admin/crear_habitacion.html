@@ -18,8 +18,31 @@
     </div>
   </div>
   <div class="container">
-    <div class="jumbotron jumbotron-fluid">
-
-    </div>
+    <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Nombre Habitación</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre Habitacion">
+        </div>
+        <div class="form-group">
+            <label for="validationDefault04">Estado</label>
+            <select class="custom-select" id="validationDefault04" required>
+            <option selected value="">Disponible</option>
+              <option value="">Ocupado</option>
+            </select>
+          </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Calificación</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Calificación">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Número de Camas</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Número de Camas">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Precio Habitación</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Precio Habitación">
+          </div>
+          <button class="btn btn-primary" type="submit">Crear Habitación</button>
+      </form>
   </div>
 {% endblock %}
